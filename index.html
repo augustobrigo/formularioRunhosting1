@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <iframe src="http://moralo.atwebpages.com/menuAjax/ciudades/index.php"  ></iframe>
+    
+
+ <div class="container">
+    <form action="http://moralo.atwebpages.com/menuAjax/ciudades/insertarCiudades.php">
+
+ <fieldset>
+     <legend>Añadir datos de nueva ciudad</legend>
+     <label for="id">IDENTIFICADOR
+        <input type="text" name="id" id="id">
+         
+     </label>
+     <label for="nombre">NOMBRE
+        <input type="text" name="nombre" id="nombre">
+         
+     </label>
+     <label for="poblacion">POBLACION
+        <input type="text" name="poblacion" id="poblacion">
+         
+     </label>
+     <label for="densidad">DENSIDAD
+        <input type="text" name="densidad" id="densidad">
+         
+     </label>
+     <label for="extension">EXTENSION
+        <input type="text" name="extension" id="extension">
+         
+     </label>
+ </fieldset>
+ <input type="submit" name="guardar" value="Guardar" id="guardar">
+
+</div>
+
+</form>
+</body>
+</html>

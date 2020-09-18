@@ -1,0 +1,25 @@
+iframe{
+    border:0;
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin:20px auto;
+}
+.container{
+    background-color: lightblue;
+    width: 80%;
+    margin:20px auto;
+  
+}
+input{
+    display: block;
+    border-color:green;
+}
+fieldset{
+   
+}
+#guardar{
+    background-color: lightgreen;
+    border-color: red;
+    border-radius: 10px;
+}
