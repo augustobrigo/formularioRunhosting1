@@ -18,8 +18,9 @@ input{
 fieldset{
    
 }
-#guardar{
+.BtnAccion{
     background-color: lightgreen;
     border-color: red;
     border-radius: 10px;
+    display: inline;
 }
